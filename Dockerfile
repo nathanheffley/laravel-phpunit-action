@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM php:7.3-cli
 
 LABEL "com.github.actions.name"="Laravel PHPUnit"
 LABEL "com.github.actions.description"="A GitHub action to run your Laravel project's PHPUnit test suite."
