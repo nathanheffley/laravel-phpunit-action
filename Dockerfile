@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM ubuntu:latest
 
 LABEL "com.github.actions.name"="Laravel PHPUnit"
 LABEL "com.github.actions.description"="A GitHub action to run your Laravel project's PHPUnit test suite."
